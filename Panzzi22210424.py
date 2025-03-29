@@ -1,5 +1,5 @@
 """
-Práctica 2: Sistema Respiratorio
+Práctica 2: Sistema respiratorio
 
 Departamento de Ingeniería Eléctrica y Electrónica, Ingeniería Biomédica
 Tecnológico Nacional de México [TecNM - Tijuana]
@@ -7,7 +7,7 @@ Blvd. Alberto Limón Padilla s/n, C.P. 22454, Tijuana, B.C., México
 
 Nombre del alumno: Ashley Dayanna Panzzi Hernandez
 Número de control: 22210424
-Correo institucional: L22210424@tectijuana.edu.mx
+Correo institucional: l22210424@tectijuana.edu.mx
 
 Asignatura: Modelado de Sistemas Fisiológicos
 Docente: Dr. Paul Antonio Valle Trujillo; paul.valle@tectijuana.edu.mx
@@ -17,7 +17,7 @@ Docente: Dr. Paul Antonio Valle Trujillo; paul.valle@tectijuana.edu.mx
 #!pip install slycot
 
 # Librerías para cálculo numérico y generación de gráficas
-import numpy as np
+import numpy as np 
 import math as m
 import matplotlib.pyplot as plt
 import control as ctrl
@@ -31,7 +31,7 @@ u2= 1.5*np.sin(m.pi*t) #Respiracion anormal (taquipnea)
 u = np.stack((u1,u2), axis = 1)
 signal = ['normal','taquipnea']
 
-def sys_respiratorio(RP,CL):
+def sys_respiratorio(RP,CL): 
     RC, LC, CS, CW = 1, 0.01, 0.005, 0.2
     alpha3 = CL*CS*LC*RP*CW
     alpha2= CL*CS*LC + CL*LC*CW + CS*LC*CW + CL*CS*RC*RP*CW
