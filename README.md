@@ -8,7 +8,7 @@ Ashley Dayanna Panzzi Hernandez
 Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: L22210424@tectijuana.edu.mx
 
 ## Objetivos general
-Diseñar un controlador que permita formular un protocolo de tratatmiento para que un paciente con enfisema (caso) presente la m,isma presion alveolar que un indivuio sano (control) 
+Diseñar un controlador que permita formular un protocolo de tratatmiento para que un paciente con enfisema (caso) presente la misma presion alveolar que un indivuio sano (control) 
 
 ## Actividades
 1. Calcular analíticamente la función de transferencia del sistema.
