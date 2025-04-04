@@ -13,9 +13,9 @@ Diseñar un controlador que permita formular un protocolo de tratatmiento para q
 ## Actividades
 1. Calcular analíticamente la función de transferencia del sistema.
 2. Establecer el modelo de ecuaciones integro-diferenciales.
-3. Determinar el error en estado estacionario y la estabilidad del sistema en lazo abierto.
+3. Determine el error en estado estacionario y la estabilidad del sistema en lazo abierto.
 4. Diseñar el controlador con Simulink utilizando el bloque PID Controller y la herramienta Tune para sintonizar los valores óptimos para cada una de las ganancias kP, kI y kD.
-5. Determinar la respuesta normal y anormal  en Python, Simulink y Multisim del circuito RLC.
+5. Determinar la respuesta normal y anormal, en Python, Simulink y Multisim del circuito RLC.
 
 ## Docente
 Dr. Paul A. Valle
